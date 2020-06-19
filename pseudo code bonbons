@@ -1,10 +1,10 @@
 wallet <- 12.47
 prixbonbon <- 1.14
 nbbonbons <- 0
-
-tant que wallet > prixbonbons:
+sommetotal <- 0
+tant que wallet > sommetotal:
     nbbonbons itere +1
-    prixbonbon itere  +1.14
+    sommetotal itere  prixbonbon
 
-afficher nbbonbons
+afficher (nbbonbons - 1)
     
