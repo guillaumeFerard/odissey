@@ -1,10 +1,11 @@
-wallet <- 12.47
-prixbonbon <- 1.14
+argent <- demande l'argent disponible
+verifier si argent > 0
+prixbonbon <- demande le prix d'un bonbon
 nbbonbons <- 0
-sommetotal <- 0
-tant que wallet > sommetotal:
+sommetotale <- 0
+tant que argent > sommetotal:
     nbbonbons itere +1
-    sommetotal itere  prixbonbon
+    sommetotale itere  prixbonbon
 
 afficher (nbbonbons - 1)
     
